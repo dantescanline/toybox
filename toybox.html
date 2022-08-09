@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Toybox.js</title>
+  <style>
+    body {
+      background: #222;
+      image-rendering: pixelated;
+      min-width: 100vw;
+      min-height: 100vh;
+      overflow: hidden;
+
+      font-family: sans-serif;
+    }
+
+    #toybox {
+      width: 800px;
+      height: 600px;
+      background: grey;
+      margin: 30px auto;
+      position: relative;
+    }
+
+    #toybox>* {
+      padding: 3px;
+      transition-duration: 0.2s;
+    }
+
+    #toybox>*:hover {
+      transform: scale(2);
+      z-index: 30 !important;
+      image-rendering: pixelated;
+    }
+
+    #explain {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 10px;
+      background-color: rgba(30, 0, 0, 0.5);
+      color: white;
+      z-index: 1000;
+      width: 400px;
+    }
+
+    h2 {
+      margin: 0px;
+      margin-bottom: 10px;
+      padding: 0px;
+    }
+
+    a {
+      color: var(--white-link);
+    }
+
+    a:hover {
+      color: var(--white) !important;
+    }
+
+    a:visited {
+      color: var(--white-link);
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div id="explain">
+    <h2>Toybox</h2>
+    An easy script for making a box full of toys!<br>
+    <br>
+    Just include <a href="toybox.js">toybox.js</a> at the bottom of your page, and make sure you have one element with
+    id="toybox" and all the
+    child elements will be animated
+  </div>
+
+  <div id="toybox">
+    <!--
+      any regular dom element here will get position:absoluted and moved around based on its size
+      you can add padding etc to modify this size
+    -->
+    <img src="images/aliencommunion.gif" alt="">
+    <img src="images/bat.gif" alt="">
+    <img src="images/chaospin.gif" alt="">
+    <img src="images/chess_cube.GIF" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/aliencommunion.gif" alt="">
+    <img src="images/bat.gif" alt="">
+    <img src="images/chaospin.gif" alt="">
+    <img src="images/chess_cube.GIF" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/aliencommunion.gif" alt="">
+    <img src="images/bat.gif" alt="">
+    <img src="images/chaospin.gif" alt="">
+    <img src="images/chess_cube.GIF" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/aliencommunion.gif" alt="">
+    <img src="images/bat.gif" alt="">
+    <img src="images/chaospin.gif" alt="">
+    <img src="images/chess_cube.GIF" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/aliencommunion.gif" alt="">
+    <img src="images/bat.gif" alt="">
+    <img src="images/chaospin.gif" alt="">
+    <img src="images/chess_cube.GIF" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/aliencommunion.gif" alt="">
+    <img src="images/bat.gif" alt="">
+    <img src="images/chaospin.gif" alt="">
+    <img src="images/chess_cube.GIF" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/aliencommunion.gif" alt="">
+    <img src="images/bat.gif" alt="">
+    <img src="images/chaospin.gif" alt="">
+    <img src="images/chess_cube.GIF" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+    <img src="images/aliencommunion.gif" alt="">
+    <img src="images/bat.gif" alt="">
+    <img src="images/chaospin.gif" alt="">
+    <img src="images/chess_cube.GIF" alt="">
+    <img src="images/crashrun.gif" alt="">
+    <img src="images/felicia.gif" alt="">
+
+  </div>
+
+  <script src="toybox.js"></script>
+</body>
+
+</html>
